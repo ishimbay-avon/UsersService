@@ -5,6 +5,7 @@ import authRouter from './routes/auth';
 import userRouter from './routes/user';
 import { errorLogger, requestLogger } from './middlewares/logger';
 import { PORT, DB_ADDRESS } from './config';
+import errorHandler from './middlewares/error-handler';
 
 const app = express();
 
@@ -19,6 +20,8 @@ app.use('/auth', authRouter);
 app.use('/user', userRouter);
 
 app.use(errorLogger);
+
+app.use(errorHandler);
 
 mongoose
   .connect(DB_ADDRESS)

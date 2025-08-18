@@ -9,7 +9,7 @@ UsersService - сервис работы с пользователями.
 | Бэкенд         | Node.js, Express, TypeScript         |
 | Базы данных    | MongoDB, ODM Mongoose                |
 | Инструменты    | Postman, MongoDB Compass             |
-|----------------|--------------------------------------|
+
 
 ## ⚙️ API роуты
 
@@ -126,6 +126,6 @@ npm run start
 
 ```
 {
-    "status": "inactive",
+    "status": "inactive"
 }
 ```
