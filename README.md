@@ -1,4 +1,4 @@
-# Приветствую команду Effective Mobile и добро пожаловать в тестовый проект UsersService!
+# Добро пожаловать в pet-проект UsersService!
 
 UsersService - сервис работы с пользователями.
 
